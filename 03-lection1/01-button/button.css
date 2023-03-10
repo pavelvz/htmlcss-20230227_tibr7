@@ -1,1 +1,87 @@
+.button_conteiner{
+    margin:20px;
+}
+
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 0;
+    background: #ccc;
+}
+
 /* Стилизация кнопки */
+
+
+.btn{
+    border-radius: 8px;
+    border:none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    cursor:pointer;
+    min-width: 100px
+}
+
+button[disabled]{
+    opacity: 0.5;
+    cursor: default;
+    pointer-events: none;
+}
+
+
+
+.btn_primary{
+    /* Blue */
+    background: #4263EB;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+.btn_primary:hover {
+    background: #2342C0;
+}
+.btn_primary:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+
+
+.btn_secondary{
+    background: var(--purple);
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+.btn_secondary:hover {
+    background: #5028C6;
+}
+.btn_secondary:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+
+
+.btn_alternate{
+
+    border: 1px solid var(--grey-3);
+    color: var(--grey-4);
+    background: var(--white);
+    transition: border 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.btn_alternate:hover {
+    border: 1px solid #212429;
+}
+.btn_alternate:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+}
+.btn_alternate[disabled]{
+      border: 1px solid var(--grey-3);
+}
