@@ -1,0 +1,63 @@
+.histogram{
+    box-sizing: border-box;
+    padding: 26px;
+    width: 354px;
+    height: 185px;
+    background: var(--white);
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.histogram__header{
+    display: flex;
+    justify-content: space-between;
+}
+.histogram__view > a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #4263EB;
+}
+
+
+.histogram__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+    opacity: 0.8;
+}
+
+.histogram__total_orders{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+     color: var(--black);
+    flex-grow: 1;
+}
+
+.histogram__chart{
+    height:70px;
+    display: flex;
+    align-items: flex-end;
+
+}
+.histogram__column{
+    flex-grow: 1;
+    background: #4263EB;
+}
+
+
+.histogram__chart_m{
+gap:1px;
+}
