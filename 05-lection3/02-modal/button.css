@@ -1,0 +1,14 @@
+.button{
+    border-style: none;
+    padding: 10px 20px;
+    background: #4263EB;
+    border-color: unset;
+    border-radius: 8px;
+    color:var(--white);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translateY(-50%) translateX(-50%);
+    cursor: pointer;
+
+}
